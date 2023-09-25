@@ -1,0 +1,14 @@
+.row {
+  --bs-gutter-x: 5.rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.row > * {
+  flex-shrink: 5px;
+    width: 635px;
+    max-width: 635%;
+}

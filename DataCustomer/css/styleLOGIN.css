@@ -1,0 +1,44 @@
+body {
+    background-image: url('../Images/LOGIN.jpg');    
+    }
+h1{
+    font-style: initial;
+    font-size: xx-large;
+    margin-left: 105px;
+    height: 55px;
+}
+label{
+    font-style: italic;
+    font-size: x-large;
+    margin-left: 5px;
+    height: 5px;
+}
+#form{
+    background-color: #42899042;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgba(134, 147, 159, 0.452);
+    border-radius: 6px;
+}
+#btn{
+    color: rgba(232, 240, 240, 0.881);
+    background-color: #66aaaabd;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+    font-family: emoji;
+    font-style: initial;
+}
+@media screen and (max-width:700px){
+    #form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+input{
+    font-size: medium;
+    background-color: white;
+}
